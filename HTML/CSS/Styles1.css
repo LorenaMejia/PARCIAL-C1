@@ -1,0 +1,45 @@
+/* Estilo básico para todo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo degradado */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2a14f1, #87cefa); /* Degradado azul más simple */
+    color: #000; /* Texto en color negro */
+    padding: 20px;
+}
+
+/* Estilo para los encabezados */
+h3 {
+    color: #333; /* Color gris oscuro para los títulos */
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+/* Estilo para los párrafos */
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+/* Estilo para las secciones */
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f8ff; /* Fondo claro para las secciones */
+    border: 1px solid #ccc; /* Bordes ligeros para separación */
+    border-radius: 5px;
+}
+
+/* Estilo para todo el contenido */
+body {
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenido en la pantalla */
+}
+
+
